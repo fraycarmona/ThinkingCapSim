@@ -1,0 +1,60 @@
+{
+  "apw": true,
+  "starts": [
+    { "x": 1.7595, "y": 3.4359, "z": 0, "orientation": -153.9273 }
+  ],
+  "path": [],
+  "walls": {
+    "defaults": { "width": 0.01, "height": 0.75, "texture": "./conf/3dmodels/textures/wall.jpg" },
+    "items": [
+      { "x1": -5, "y1": -5, "z1": 0, "x2": -5, "y2": 5, "z2": 0 },
+      { "x1": -5, "y1": 5, "z1": 0, "x2": 5, "y2": 5, "z2": 0 },
+      { "x1": 5, "y1": 5, "z1": 0, "x2": 5, "y2": -1.8011, "z2": 0 },
+      { "x1": 5, "y1": -5, "z1": 0, "x2": -5, "y2": -5, "z2": 0 },
+      { "x1": -2.5917, "y1": 5, "z1": 0, "x2": -2.5363, "y2": 0.9934, "z2": 0 },
+      { "x1": -4.0316, "y1": 5, "z1": 0, "x2": -3.9623, "y2": -3.0776, "z2": 0 },
+      { "x1": -1.1672, "y1": 5, "z1": 0, "x2": -1.1256, "y2": 0.3746, "z2": 0 },
+      { "x1": 5, "y1": 2.189, "z1": 0, "x2": 0.1452, "y2": 2.1474, "z2": 0 },
+      { "x1": 2.3004, "y1": -5, "z1": 0, "x2": 2.2727, "y2": -1.3831, "z2": 0 },
+      { "x1": 5, "y1": -0.245, "z1": 0, "x2": -0.1663, "y2": -0.2588, "z2": 0 },
+      { "x1": -1.4131, "y1": -5, "z1": 0, "x2": -1.427, "y2": -1.2052, "z2": 0 },
+      { "x1": -2.9371, "y1": -5, "z1": 0, "x2": -2.951, "y2": -3.519, "z2": 0 },
+      { "x1": 5, "y1": -5, "z1": 0, "x2": 5, "y2": -3.1449, "z2": 0 }
+    ]
+  },
+  "markings": {
+    "defaults": { "color": "white", "width": 0.05 },
+    "items": []
+  },
+  "icons": [
+    {
+      "label": "icon",
+      "x": 0.1663,
+      "y": -0.0831,
+      "z": 0,
+      "orientation": 0,
+      "lines": []
+    }
+  ],
+  "objects": [],
+  "aobjects": [],
+  "zones": {
+    "defaults": { "texture": "./conf/3dmodels/textures/floor.jpg" },
+    "items": [
+      { "label": "Habitación", "x": -4.9847, "y": -5.0006, "z": 0, "width": 10, "height": 10, "texture": "./conf/3dmodels/textures/floor2.jpg" },
+      { "label": "SALIDA", "x": 5.0206, "y": -3.1404, "z": 0, "width": 0.5126, "height": 1.33 }
+    ]
+  },
+  "fareas": {
+    "defaults": { "texture": "./conf/3dmodels/textures/farea.jpg" },
+    "items": []
+  },
+  "connectors": {
+    "defaults": { "width": 0.005, "height": 1.9, "texture": "./conf/3dmodels/textures/wall.jpg" },
+    "items": []
+  },
+  "waypoints": [],
+  "docks": [],
+  "beacons": [],
+  "cbeacons": []
+}

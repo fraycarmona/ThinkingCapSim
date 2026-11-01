@@ -1,0 +1,225 @@
+{
+  "apw": true,
+  "starts": [
+    {
+      "x": -4.25,
+      "y": 0,
+      "z": 0,
+      "orientation": 0
+    }
+  ],
+  "path": [],
+  "walls": {
+    "defaults": {
+      "width": 0.01,
+      "height": 0.75,
+      "texture": "./conf/3dmodels/textures/wall.jpg"
+    },
+    "items": [
+      {
+        "x1": -5,
+        "y1": -1.25,
+        "z1": 0,
+        "x2": 5,
+        "y2": -1.25,
+        "z2": 0
+      },
+      {
+        "x1": 5,
+        "y1": -1.25,
+        "z1": 0,
+        "x2": 5,
+        "y2": 1.25,
+        "z2": 0
+      },
+      {
+        "x1": 5,
+        "y1": 1.25,
+        "z1": 0,
+        "x2": -5,
+        "y2": 1.25,
+        "z2": 0
+      },
+      {
+        "x1": -5,
+        "y1": 1.25,
+        "z1": 0,
+        "x2": -5,
+        "y2": -1.25,
+        "z2": 0
+      }
+    ]
+  },
+  "icons": [
+    {
+      "label": "ball",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "orientation": 0,
+      "lines": [
+        {
+          "x1": 0.1016,
+          "y1": 0.0421,
+          "z1": 0,
+          "x2": 0.0421,
+          "y2": 0.1016,
+          "z2": 0
+        },
+        {
+          "x1": 0.0421,
+          "y1": 0.1016,
+          "z1": 0,
+          "x2": -0.0421,
+          "y2": 0.1016,
+          "z2": 0
+        },
+        {
+          "x1": -0.0421,
+          "y1": 0.1016,
+          "z1": 0,
+          "x2": -0.1016,
+          "y2": 0.0421,
+          "z2": 0
+        },
+        {
+          "x1": -0.1016,
+          "y1": 0.0421,
+          "z1": 0,
+          "x2": -0.1016,
+          "y2": -0.0421,
+          "z2": 0
+        },
+        {
+          "x1": -0.1016,
+          "y1": -0.0421,
+          "z1": 0,
+          "x2": -0.0421,
+          "y2": -0.1016,
+          "z2": 0
+        },
+        {
+          "x1": -0.0421,
+          "y1": -0.1016,
+          "z1": 0,
+          "x2": 0.0421,
+          "y2": -0.1016,
+          "z2": 0
+        },
+        {
+          "x1": 0.0421,
+          "y1": -0.1016,
+          "z1": 0,
+          "x2": 0.1016,
+          "y2": -0.0421,
+          "z2": 0
+        },
+        {
+          "x1": 0.1016,
+          "y1": -0.0421,
+          "z1": 0,
+          "x2": 0.1016,
+          "y2": 0.0421,
+          "z2": 0
+        }
+      ]
+    }
+  ],
+  "objects": [],
+  "aobjects": [
+    {
+      "label": "movil_1",
+      "icon": "ball",
+      "image": "./conf/2dmodels/ball.png",
+      "x": -1.75,
+      "y": -0.55,
+      "z": 0.11,
+      "orientation": 0,
+      "radius": 0.11,
+      "color": "gray_dark",
+      "shape": "./conf/3dmodels/quaky2/ball.3ds",
+      "usecolor": false,
+      "dynamics": "tcapps.tcsimulator.simulator.objects.SimMobileObject",
+      "movement": "ACCELERATED",
+      "speed": 0.3,
+      "acceleration": 0.0,
+      "mass": 0.4,
+      "coef_col": 0.0,
+      "coef_fric": 0.0
+    },
+    {
+      "label": "movil_2",
+      "icon": "ball",
+      "image": "./conf/2dmodels/ball.png",
+      "x": 1.0,
+      "y": 0.45,
+      "z": 0.11,
+      "orientation": 180,
+      "radius": 0.11,
+      "color": "gray_dark",
+      "shape": "./conf/3dmodels/quaky2/ball.3ds",
+      "usecolor": false,
+      "dynamics": "tcapps.tcsimulator.simulator.objects.SimMobileObject",
+      "movement": "ACCELERATED",
+      "speed": 0.5,
+      "acceleration": 0.0,
+      "mass": 0.4,
+      "coef_col": 0.0,
+      "coef_fric": 0.0
+    },
+    {
+      "label": "movil_3",
+      "icon": "ball",
+      "image": "./conf/2dmodels/ball.png",
+      "x": 3.1,
+      "y": 0.0,
+      "z": 0.11,
+      "orientation": -135,
+      "radius": 0.11,
+      "color": "gray_dark",
+      "shape": "./conf/3dmodels/quaky2/ball.3ds",
+      "usecolor": false,
+      "dynamics": "tcapps.tcsimulator.simulator.objects.SimMobileObject",
+      "movement": "ACCELERATED",
+      "speed": 0.7,
+      "acceleration": 0.0,
+      "mass": 0.4,
+      "coef_col": 0.0,
+      "coef_fric": 0.0
+    }
+  ],
+  "zones": {
+    "defaults": {
+      "texture": "./conf/3dmodels/textures/floor.jpg"
+    },
+    "items": [
+      {
+        "label": "Pasillo cancerbero",
+        "x": -5,
+        "y": -1.25,
+        "z": 0,
+        "width": 10,
+        "height": 2.5,
+        "texture": "./conf/3dmodels/textures/floor2.jpg"
+      }
+    ]
+  },
+  "fareas": {
+    "defaults": {
+      "texture": "./conf/3dmodels/textures/farea.jpg"
+    },
+    "items": []
+  },
+  "connectors": {
+    "defaults": {
+      "width": 0.005,
+      "height": 1.9,
+      "texture": "./conf/3dmodels/textures/wall.jpg"
+    },
+    "items": []
+  },
+  "waypoints": [],
+  "docks": [],
+  "beacons": [],
+  "cbeacons": []
+}

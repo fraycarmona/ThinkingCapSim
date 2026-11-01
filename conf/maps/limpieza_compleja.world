@@ -1,0 +1,162 @@
+{
+  "apw": true,
+  "starts": [
+    {
+      "x": 1.8414,
+      "y": 3.9117,
+      "z": 0,
+      "orientation": -153.9273
+    }
+  ],
+  "path": [],
+  "walls": {
+    "defaults": {
+      "width": 0.01,
+      "height": 0.75,
+      "texture": "./conf/3dmodels/textures/wall.jpg"
+    },
+    "items": [
+      {
+        "x1": -5,
+        "y1": -5,
+        "z1": 0,
+        "x2": -5,
+        "y2": 5,
+        "z2": 0
+      },
+      {
+        "x1": -5,
+        "y1": 5,
+        "z1": 0,
+        "x2": 5,
+        "y2": 5,
+        "z2": 0
+      },
+      {
+        "x1": 5,
+        "y1": 5,
+        "z1": 0,
+        "x2": 5,
+        "y2": -5,
+        "z2": 0
+      },
+      {
+        "x1": 5,
+        "y1": -5,
+        "z1": 0,
+        "x2": -5,
+        "y2": -5,
+        "z2": 0
+      },
+      {
+        "x1": -1.5,
+        "y1": -4.0,
+        "z1": 0,
+        "x2": -1.5,
+        "y2": 1.0,
+        "z2": 0
+      },
+      {
+        "x1": -3.6,
+        "y1": 2.0,
+        "z1": 0,
+        "x2": -2.7,
+        "y2": 2.0,
+        "z2": 0
+      },
+      {
+        "x1": -2.7,
+        "y1": 2.0,
+        "z1": 0,
+        "x2": -2.7,
+        "y2": 2.9,
+        "z2": 0
+      },
+      {
+        "x1": -2.7,
+        "y1": 2.9,
+        "z1": 0,
+        "x2": -3.6,
+        "y2": 2.9,
+        "z2": 0
+      },
+      {
+        "x1": -3.6,
+        "y1": 2.9,
+        "z1": 0,
+        "x2": -3.6,
+        "y2": 2.0,
+        "z2": 0
+      },
+      {
+        "x1": 1.3,
+        "y1": -2.8,
+        "z1": 0,
+        "x2": 2.7,
+        "y2": -2.8,
+        "z2": 0
+      },
+      {
+        "x1": 2.7,
+        "y1": -2.8,
+        "z1": 0,
+        "x2": 2.7,
+        "y2": -1.8,
+        "z2": 0
+      },
+      {
+        "x1": 2.7,
+        "y1": -1.8,
+        "z1": 0,
+        "x2": 1.3,
+        "y2": -1.8,
+        "z2": 0
+      },
+      {
+        "x1": 1.3,
+        "y1": -1.8,
+        "z1": 0,
+        "x2": 1.3,
+        "y2": -2.8,
+        "z2": 0
+      }
+    ]
+  },
+  "icons": [],
+  "objects": [],
+  "aobjects": [],
+  "zones": {
+    "defaults": {
+      "texture": "./conf/3dmodels/textures/floor.jpg"
+    },
+    "items": [
+      {
+        "label": "Habitacion con obstaculos",
+        "x": -5,
+        "y": -5,
+        "z": 0,
+        "width": 10,
+        "height": 10,
+        "texture": "./conf/3dmodels/textures/floor2.jpg"
+      }
+    ]
+  },
+  "fareas": {
+    "defaults": {
+      "texture": "./conf/3dmodels/textures/farea.jpg"
+    },
+    "items": []
+  },
+  "connectors": {
+    "defaults": {
+      "width": 0.005,
+      "height": 1.9,
+      "texture": "./conf/3dmodels/textures/wall.jpg"
+    },
+    "items": []
+  },
+  "waypoints": [],
+  "docks": [],
+  "beacons": [],
+  "cbeacons": []
+}
